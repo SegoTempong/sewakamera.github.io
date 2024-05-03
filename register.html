@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SERA</h1>
+    </header>
+    <section class="register">
+      <h2>Register</h2>
+      <form action="register.html" method="POST">
+        <input type="text" name="name" placeholder="Nama Lengkap" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <!-- Menggunakan formaction untuk mengarahkan ke halaman login setelah submit -->
+        <button type="submit" class="register-button" formaction="login.html">
+          Register
+        </button>
+      </form>
+    </section>
+
+    <!-- Akun Sosmed -->
+    <div class="media-sosial">Akun Media Sosial</div>
+    <a href="https://youtube.com/IsunODON" target="_blank" class="links-youtube"
+      ><i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a
+      href="https://instagram.com/isunodon"
+      target="_blank"
+      class="links-instagram"
+      ><i class="fab fa-instagram"></i> Instagram</a
+    >
+    <a href="https://t.me/IsunODON" target="_blank" class="links-telegram"
+      ><i class="fab fa-telegram"></i> Telegram</a
+    >
+    <a href="https://tiktok.com/@IsunODON" target="_blank" class="links-tiktok"
+      ><i class="fab fa-tiktok"></i> TikTok</a
+    >
+
+    <footer>
+      <p>© 2024 SERA</p>
+    </footer>
+  </body>
+</html>
